@@ -1,0 +1,30 @@
+{
+  "name": "udp2ws",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Forward UDP to WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fr0stbyter/udp2ws.git"
+  },
+  "keywords": [
+    "udp",
+    "websocket"
+  ],
+  "author": "shren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fr0stbyter/udp2ws/issues"
+  },
+  "homepage": "https://github.com/fr0stbyter/udp2ws#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@types/ws": "^8.5.3",
+    "osc": "^2.4.3",
+    "ws": "^8.8.1"
+  }
+}
