@@ -1,7 +1,6 @@
 import udp from "dgram";
 import process from "process";
 import { WebSocketServer } from "ws";
-// import OSC from "osc";
 
 const udpPort = +process.argv[2] || 8000;
 const wsPort = +process.argv[3] || 8012;
