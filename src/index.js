@@ -63,6 +63,7 @@ udpServer.on("listening", () => {
     } else {
         udpServer.on("message", (msg, info) => {
             recvBytes += msg.byteLength;
+            sentBytes += msg.byteLength;
             wsServer.clients.forEach((socket) => {
                 socket.send(msg);
             });
