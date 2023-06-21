@@ -1,6 +1,5 @@
 {
   "name": "udp2ws",
-  "type": "module",
   "version": "1.0.0",
   "description": "Forward UDP to WebSocket",
   "main": "index.js",
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/fr0stbyter/udp2ws#readme",
   "devDependencies": {
+    "@shren/max-api-or-not": "^1.1.1",
     "@types/node": "^18.7.18",
     "@types/ws": "^8.5.3",
     "ws": "^8.8.1"
